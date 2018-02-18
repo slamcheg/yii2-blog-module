@@ -1,0 +1,22 @@
+{
+    "name": "lite/blog",
+    "authors": [
+        {
+            "name": "Vladimir Bobrik",
+            "email": "vladimir.bobrikk@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "lite\\blog\\": "src",
+            "lbm\\":"tests"
+        }
+    }
+}
